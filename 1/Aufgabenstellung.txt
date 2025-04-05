@@ -1,0 +1,10 @@
+Gegeben ist ein 2D-Array aus Buuchstaben. Schreiben Sie eine Funktion find_word(grid, word), die prüft, ob ein gegebenes Wort durch benachbarte Buchstaben (oben, unten, links, rechts) gebildet werden kann, ohne ein Feld zweimal zu benutzen.
+
+Beispiel:
+grid = [
+    ['A', 'B', 'C', 'E'],
+    ['S', 'F', 'C', 'S'],
+    ['A', 'D', 'E', 'E']
+]
+word = "ABCCED"
+find_word(grid, word) # -> True
