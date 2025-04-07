@@ -1,0 +1,7 @@
+1: Stell dir vor du bist ein Softwareentwickler.Du sollst ein Software Projekt umsetzen. Dafür gehen wir schrittweise vor. Der Code soll in Python geschrieben sein. Erstell eine GUI mit einer Zahl in der Mitte
+
+2: Die Zahl soll noch da neben zwei Knöpfe haben. Einen um die Zahl zu erhöhen, den anderen um die Zahl zu verringern.
+
+3: Der Hintergrund von der GUI soll ein Wabenmuster sein.
+
+4: Verbessere so den Code das er den Python Best Practicess entspricht. Prüfe ob alle Anforderungen aus der Aufgabenstellung erfüllt worden sind.
