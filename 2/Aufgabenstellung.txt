@@ -1,0 +1,4 @@
+Implementieren Sie eine einfache Modellierung eines Verkehrsnetzes mit den Klassen Station, Connection und Network.
+- Eine Station hat einen Namen
+- Eine Connection verbindet zwei Stationen und hat eine Dauer in Minuten
+- Das Netzwerk speichert alle Stationen und Verbindungen und soll eine Methode shortest_path(start, end) bereitstellen, die die kürzeste Reisedauer zwischen zwei Stationen mit dem Dijkstra-Algorithmus berechnet.

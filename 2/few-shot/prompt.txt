@@ -1,0 +1,8 @@
+Versetz dich in die Rolle eines Softwareentwicklers. Dein Ziel ist es präzisen Code zu schreiben der gut Verständlich ist. Zudem soll er möglichst effizent sein und alle Anforderungen der Aufgabestellung erfüllen. 
+Bitte schreibe den Code in Python und verwende die Python Best Practices. Strukturiere die Dateien, wenn es mehrere geben sollte sinn voll und gebe den Dateien sprechende Namen. Halte dich strikt an diese Anweisungen.
+Die Aufgabe lautet wie folgt:
+
+Implementieren Sie eine einfache Modellierung eines Verkehrsnetzes mit den Klassen Station, Connection und Network.
+- Eine Station hat einen Namen
+- Eine Connection verbindet zwei Stationen und hat eine Dauer in Minuten
+- Das Netzwerk speichert alle Stationen und Verbindungen und soll eine Methode shortest_path(start, end) bereitstellen, die die kürzeste Reisedauer zwischen zwei Stationen mit dem Dijkstra-Algorithmus berechnet.
