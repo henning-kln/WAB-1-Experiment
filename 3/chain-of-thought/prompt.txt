@@ -1,0 +1,9 @@
+1: Stell dir vor du bist ein Softwareentwickler.Du sollst ein Software Projekt umsetzen. Dafür gehen wir schrittweise vor. Der Code soll in Python geschrieben sein. Es soll eine Funktion evaluate(expression: str) entstehen, die eien mathematischen Ausdruck annimmt und ausrechnet. Im ersten Schritt zerlegen wir den Mathematischen ausdruck in Unterausdrücke
+
+2: Solange ein Ausdruck nicht selbstauswertent ist, rufen wir die Funktion rekusiv darauf auf.
+
+3: Die Teilergebnisse müssen dann zusammengefügt werden.
+
+4: Gib einen Fehler zurück wenn es kein mathematisch korrekter Ausdruck ist.
+
+5: Verbessere so den Code das er den Python Best Practicess entspricht. Prüfe ob alle Anforderungen aus der Aufgabenstellung erfüllt worden sind.

@@ -1,0 +1,4 @@
+Schreiben Sie eine Funktion evaluate(expression: str), die einfache mathematische Ausdrücke mit +, -, *, / und Klammern korrekt auswertet. 
+
+Beispiel:
+evaluate("3 + (2 * (1 * 1))") #-> 7
