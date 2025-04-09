@@ -1,0 +1,10 @@
+1: Stell dir vor du bist ein Softwareentwickler.Du sollst ein Software Projekt umsetzen. Dafür gehen wir schrittweise vor. Der Code soll in Python geschrieben sein. Du hast eine oder mehrere Logdateien von einem Webserver erhalten. Diese Dateien protokollieren jeden Zugriff auf den Server.
+    Die Logdateien sind im "Common Log Format" CLF. Das Programm soll alle gültigen Logzeilen zählen und zurückgeben woviele Anfragen es gab.
+
+2: Zudem soll gezählt werden wie oft jeder HTTP-Statuscode vorkam. 
+
+3: Desweiteren sollen die N am häufigsten angefragten URLs aufgelistet werden sowie die n häufigsten IP-Addressen, von denen die meisten Anfragen kamen.
+
+4: Dazu soll noch berechnet werden wieviele Bytes an Daten erfolgreich übertragen wurden.
+
+5: Verbessere so den Code das er den Python Best Practicess und PEP8 entspricht. Prüfe ob alle Anforderungen aus der Aufgabenstellung erfüllt worden sind.

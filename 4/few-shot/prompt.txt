@@ -1,0 +1,8 @@
+Versetz dich in die Rolle eines Softwareentwicklers. Dein Ziel ist es präzisen Code zu schreiben der gut Verständlich ist. Zudem soll er möglichst effizent sein und alle Anforderungen der Aufgabestellung erfüllen. 
+Bitte schreibe den Code in Python und verwende die Python Konventionen von PEP8. Strukturiere die Dateien sinn voll und gebe den Dateien sprechende Namen. Halte dich strikt an diese Anweisungen.
+Die Aufgabe lautet wie folgt:
+
+Du hast eine oder mehrere Logdateien von einem Webserver erhalten. Diese Dateien protokollieren jeden Zugriff auf den Server.
+Die Logdateien sind im "Common Log Format" CLF. Das Programm soll alle gültigen Logzeilen zählen und zurückgeben woviele Anfragen es gab.
+Zudem soll gezählt werden wie oft jeder HTTP-Statuscode vorkam. Desweiteren sollen die N am häufigsten angefragten URLs aufgelistet werden sowie die n häufigsten IP-Addressen, von denen die meisten Anfragen kamen.
+Dazu soll noch berechnet werden wieviele Bytes an Daten erfolgreich übertragen wurden.
