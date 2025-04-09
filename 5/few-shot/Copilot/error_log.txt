@@ -1,0 +1,5 @@
+Fehlerhafte Daten in Zeile 3: {'Name': 'Bob', 'Alter': '', 'Punkte': '74'} - invalid literal for int() with base 10: ''
+Fehlerhafte Daten in Zeile 4: {'Name': 'Clara', 'Alter': '31', 'Punkte': 'not available'} - invalid literal for int() with base 10: 'not available'
+Fehlerhafte Daten in Zeile 7: {'Name': 'Frank', 'Alter': '27', 'Punkte': 'abc'} - invalid literal for int() with base 10: 'abc'
+Fehlerhafte Daten in Zeile 9: {'Name': 'Heidi', 'Alter': '', 'Punkte': '80'} - invalid literal for int() with base 10: ''
+Fehlerhafte Daten in Zeile 10: {'Name': 'Ivan', 'Alter': '29', 'Punkte': 'NaN'} - invalid literal for int() with base 10: 'NaN'

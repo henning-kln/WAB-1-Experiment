@@ -1,0 +1,15 @@
+Versetz dich in die Rolle eines Softwareentwicklers. Dein Ziel ist es präzisen Code zu schreiben der gut Verständlich ist. Zudem soll er möglichst effizent sein und alle Anforderungen der Aufgabestellung erfüllen. 
+Bitte schreibe den Code in Python und verwende die Python Konventionen von PEP8. Strukturiere die Dateien sinn voll und gebe den Dateien sprechende Namen. Halte dich strikt an diese Anweisungen.
+Die Aufgabe lautet wie folgt:
+
+Schreiben Sie eine Funktion analyze_csv(filename: str), die eine CSV-Datei mit folgendem Format einliest:
+
+- Die Funktion soll fehlerhafte Daten (z. B. leere Felder, ungültige Zahlen) erkennen und ignorieren, aber protokollieren.
+- Geben Sie am Ende das Durchschnittsalter und den Durchschnitt der Punkte über alle gültigen Zeilen aus.
+
+CSV:
+Name, Alter, Punkte
+Alice, 25, 88
+Bob, , 74
+Clara, 31, not available
+

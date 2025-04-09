@@ -1,0 +1,13 @@
+1: Stell dir vor du bist ein Softwareentwickler.Du sollst ein Software Projekt umsetzen. Dafür gehen wir schrittweise vor. Der Code soll in Python geschrieben sein. Es soll eine Funktion implementiert werden die csv dateien einliest. Beispieldaten sehen wie folgt aus:
+CSV:
+Name, Alter, Punkte
+Alice, 25, 88
+Bob, , 74
+Clara, 31, not available
+
+2: Es soll das durchschnitts Alter und die Durchschitts Punktzahl berechnet werden.
+
+3: Fehlerhafte Zeilen soll ignoriert werden aber protokolliert
+
+
+4: Verbessere so den Code das er den Python Best Practicess und PEP8 entspricht. Prüfe ob alle Anforderungen aus der Aufgabenstellung erfüllt worden sind.
