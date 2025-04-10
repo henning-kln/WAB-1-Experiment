@@ -51,4 +51,28 @@ def evaluate(expression: str) -> float:
 
 # Beispiel:
 print(evaluate("3 + (2 * (1 * 1))"))  # Ausgabe: 7
-print(evaluate("-3 + 2 * 1)"))  # Ausgabe: 5
+print(evaluate("3 + 2 * 1"))  # Ausgabe: 5
+
+
+### selbsterstelle Tests
+# Test 1: Einfache Addition
+print(evaluate("1 + 1"))  # Erwartete Ausgabe: 2
+# Test 2: Einfache Subtraktion
+print(evaluate("5 - 3"))  # Erwartete Ausgabe: 2
+# Test 3: Einfache Multiplikation
+print(evaluate("2 * 3"))  # Erwartete Ausgabe: 6
+# Test 4: Einfache Division
+print(evaluate("6 / 3"))  # Erwartete Ausgabe: 2.0
+# Test 5: Kombination von Operationen
+print(evaluate("2 + 3 * 4"))  # Erwartete Ausgabe: 14
+# Test 6: Verwendung von Klammern
+print(evaluate("(2 + 3) * 4"))  # Erwartete Ausgabe: 20
+# Test 7: Negative Zahlen
+print(evaluate("-2 + 3"))  # Erwartete Ausgabe: 1
+# Test 8: Komplexer Ausdruck
+print(evaluate("3 + 2 * (1 - 5)"))  # Erwartete Ausgabe: -1
+# Test 9: Division durch Null (sollte eine Ausnahme auslösen)
+try:
+    print(evaluate("1 / 0"))
+except ZeroDivisionError as e:
+    print(f"Fehler: {e}")

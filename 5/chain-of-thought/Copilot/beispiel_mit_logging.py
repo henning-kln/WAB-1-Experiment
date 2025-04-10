@@ -22,7 +22,7 @@ def main():
     print(f"Benutzer: {current_user}")
 
     # Datei mit Beispieldaten (inklusive fehlerhafter Zeilen)
-    file_path = 'daten_mit_fehlern.csv'
+    file_path = '5/test.csv'
 
     try:
         # Mit Pandas (empfohlen)

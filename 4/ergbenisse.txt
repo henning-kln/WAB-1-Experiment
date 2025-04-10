@@ -1,0 +1,38 @@
+Gültige Logzeilen: 10
+
+HTTP-Statuscodes
+200: 7
+304: 1
+404: 1
+500: 1
+
+URLs:
+/index.html : 1
+/login.php : 1
+/style.css : 1
+/nonexistent_page.php : 1
+/ : 1
+/submit_data : 1
+/healthz : 1
+/info.php : 1
+/images/background.jpg : 1
+/resource : 1
+
+IPs:
+192.168.1.10 3
+127.0.0.1 2
+10.0.0.5 2
+172.16.5.2
+216.58.214.142
+- 
+
+
+Übertragene Bytes: 
+1532
+88
+8912
+2
+750
+180234
+---
+191518
