@@ -1,0 +1,53 @@
+Aufgabe 1:
+1: Stell dir vor du bist ein Softwareentwickler.Du sollst ein Software Projekt umsetzen. Dafür gehen wir schrittweise vor. Der Code soll in Python geschrieben sein. Erstell eine GUI mit einer Zahl in der Mitte
+
+2: Die Zahl soll noch da neben zwei Knöpfe haben. Einen um die Zahl zu erhöhen, den anderen um die Zahl zu verringern.
+
+3: Der Hintergrund von der GUI soll ein Wabenmuster sein.
+
+4: Verbessere so den Code das er den Python Best Practicess entspricht. Prüfe ob alle Anforderungen aus der Aufgabenstellung erfüllt worden sind.
+Aufgabe 2:
+1: Stell dir vor du bist ein Softwareentwickler.Du sollst ein Software Projekt umsetzen. Dafür gehen wir schrittweise vor. Der Code soll in Python geschrieben sein. Es soll ein Verkehrsnetz modeliert werden. Dazu muss es Stationen geben, die einen Namen haben.
+
+2: Zwei Stationen können über eine Verbindung verknüpft werden. Zu jeder Verbindung wird eine Fahrzeit in Minuten angegeben.
+
+3: Es gibt eine Klasse Netzwerk, die alle Verbindungen und Stationen enthält. 
+
+4: Zudem hat die Klasse Netzwerk eine Methode shortest_path(start, end) womit die kürzeste Strecken zwischen zwei Stationen gefunden wird.
+
+5: Verbessere so den Code das er den Python Best Practicess entspricht. Prüfe ob alle Anforderungen aus der Aufgabenstellung erfüllt worden sind.
+Aufgabe 3:
+1: Stell dir vor du bist ein Softwareentwickler.Du sollst ein Software Projekt umsetzen. Dafür gehen wir schrittweise vor. Der Code soll in Python geschrieben sein. Es soll eine Funktion evaluate(expression: str) entstehen, die eien mathematischen Ausdruck annimmt und ausrechnet. Im ersten Schritt zerlegen wir den Mathematischen ausdruck in Unterausdrücke
+
+2: Solange ein Ausdruck nicht selbstauswertent ist, rufen wir die Funktion rekusiv darauf auf.
+
+3: Die Teilergebnisse müssen dann zusammengefügt werden.
+
+4: Gib einen Fehler zurück wenn es kein mathematisch korrekter Ausdruck ist.
+
+5: Verbessere so den Code das er den Python Best Practicess entspricht. Prüfe ob alle Anforderungen aus der Aufgabenstellung erfüllt worden sind.
+Aufgabe 4:
+1: Stell dir vor du bist ein Softwareentwickler.Du sollst ein Software Projekt umsetzen. Dafür gehen wir schrittweise vor. Der Code soll in Python geschrieben sein. Du hast eine oder mehrere Logdateien von einem Webserver erhalten. Diese Dateien protokollieren jeden Zugriff auf den Server.
+    Die Logdateien sind im "Common Log Format" CLF. Das Programm soll alle gültigen Logzeilen zählen und zurückgeben wieviele Anfragen es gab.
+
+2: Zudem soll gezählt werden wie oft jeder HTTP-Statuscode vorkam. 
+
+3: Desweiteren sollen die N am häufigsten angefragten URLs aufgelistet werden sowie die n häufigsten IP-Addressen, von denen die meisten Anfragen kamen.
+
+4: Dazu soll noch berechnet werden wieviele Bytes an Daten erfolgreich übertragen wurden.
+
+5: Verbessere so den Code das er den Python Best Practicess und PEP8 entspricht. Prüfe ob alle Anforderungen aus der Aufgabenstellung erfüllt worden sind.
+Aufgabe 5:
+1: Stell dir vor du bist ein Softwareentwickler.Du sollst ein Software Projekt umsetzen. Dafür gehen wir schrittweise vor. Der Code soll in Python geschrieben sein. Es soll eine Funktion implementiert werden die csv dateien einliest. Beispieldaten sehen wie folgt aus:
+CSV:
+Name, Alter, Punkte
+Alice, 25, 88
+Bob, , 74
+Clara, 31, not available
+
+2: Es soll das durchschnitts Alter und die Durchschitts Punktzahl berechnet werden.
+
+3: Fehlerhafte Zeilen soll ignoriert werden aber protokolliert
+
+
+4: Verbessere so den Code das er den Python Best Practicess und PEP8 entspricht. Prüfe ob alle Anforderungen aus der Aufgabenstellung erfüllt worden sind.

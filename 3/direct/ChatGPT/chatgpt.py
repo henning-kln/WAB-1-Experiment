@@ -70,9 +70,9 @@ print(evaluate("(2 + 3) * 4"))  # Erwartete Ausgabe: 20
 # Test 7: Negative Zahlen
 print(evaluate("-2 + 3"))  # Erwartete Ausgabe: 1
 # Test 8: Komplexer Ausdruck
-print(evaluate("3 + 2 * (1 - 5)"))  # Erwartete Ausgabe: -1
+print(evaluate("3 + 2 * (1 - 5)"))  # Erwartete Ausgabe: -5
 # Test 9: Division durch Null (sollte eine Ausnahme auslösen)
 try:
     print(evaluate("1 / 0"))
-except ZeroDivisionError as e:
+except ValueError as e:
     print(f"Fehler: {e}")
